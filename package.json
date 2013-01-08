@@ -1,0 +1,21 @@
+{
+  "name": "immaletyou",
+  "version": "0.1.0",
+  "description": "Javascript mocking library for use with AMD.  Immaletyou also enables you to test your browser AMD modules in node.",
+  "main": "immaletyou.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justspamjustin/immaletyou.git"
+  },
+  "keywords": [
+    "AMD",
+    "mocking",
+    "unit testing",
+    "immaletyou"
+  ],
+  "author": "justspamjustin",
+  "license": "BSD"
+}
