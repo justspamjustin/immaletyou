@@ -26,9 +26,10 @@ var obj = (function() {
       return mocks[path] || self.defaultMock;
     };
     var moduleReturn;
-    try {
-      moduleReturn = modules[path](mockRequire);
-    } catch(e) {
+    var theModule = modules[path];
+    if(theModule) {
+      moduleReturn = theModule(mockRequire);
+    } else {
       var paths = '';
       for(var i  in modules) {
         paths += i + '\n';
