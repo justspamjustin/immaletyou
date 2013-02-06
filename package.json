@@ -1,6 +1,6 @@
 {
   "name": "immaletyou",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Javascript mocking library for use with AMD.  Immaletyou also enables you to test your browser AMD modules in node.",
   "main": "immaletyou.js",
   "scripts": {
@@ -17,5 +17,5 @@
     "immaletyou"
   ],
   "author": "justspamjustin",
-  "license": "BSD"
+  "license": "MIT"
 }
